@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald:wght@500;700&family=Poppins:wght@300&display=swap');
+
+  @media (max-width: 767px) {
+    .navbar-brand img {
+      max-height: 50px !important;
+      width: auto !important;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #tituloHome {
+      max-height: 50px !important;
+      width: auto !important;
+    }
+  }
+  
+
+header {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: white;
+}
+
+#hamFav h2 {
+    color: #FB008C;
+}
+
+#mision h2 {
+    color: #FFCA02;
+}
+
+.grupo1 {
+    position: relative;
+}
+
+.corazon {
+    position: absolute;
+    bottom: -40px;
+    left: -80px;
+}
+
+#galeria {
+    background-color: #BF4632;
+}
+
+#galeria h2 {
+    color: white;
+}
+
+#galeria h3 {
+    color: #BF4632;
+}
+
+.grupo2 {
+    position: relative;
+}
+
+.ketchup {
+    position: absolute;
+    bottom: -200px;
+    right: -45px;
+}
+
+.card-body {
+    background-color: #92CE12;
+    color: white; 
+   
+}
+
+#beneficios h2 {
+    color: #92CE12;
+    
+}
+
+#beneficios h3 {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+#mask {
+    opacity: 0.5 !important;
+}
+
+#testimonios h2 {
+    color: #FB008C;
+}
+
+
+
+#testimonios h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#testimonios p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#burgerShop h1 {
+    color: white;
+    
+}
+
+#burgerShop h2 {
+    color: white;
+    
+
+}
+
+#burgerShop button {
+    background-color: #FB008C;
+    width: 301px;
+    height: 64px;
+    border-radius: 45px;
+    border-color: #FB008C;
+
+}
+
+#burgerShop a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+#quienes h1 {
+    color: white;
+    font-weight: bold;
+}
+
+#quienes h2 {
+    color: #FFCA02;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#quienes p {
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767px) {
+    #tituloQuienes {
+      max-height: 50px !important;
+      width: auto !important;
+      margin-top: 200px !important;
+    }
+  }
+
+/* Los números y texto del banner desaparecen a partir de pantalla de 950px*/
+@media (max-width: 950px) {
+    #quienes h2,
+    #quienes p {
+      display: none;
+    }
+  }
+ 
+.grupo7 {
+    position: relative;
+}
+
+.espatula {
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+    z-index: 1;
+}
+
+#hamburgueseros h1 {
+    color: white;
+}
+#descripcion a {
+    text-decoration: none;
+    color: white;
+    
+
+}
+#descripcion {
+    background-color: #E55A00;
+    color: white;
+    width: auto;
+    min-height: 800px;
+    text-align: center;
+}
+
+#nosotros h2 {
+    color: #BF4632;
+}
+
+.accordion-item :focus {
+    background-color: #E55B40;
+    color: white;
+}
+
+#sucursales h1 {
+    color: #92CE12;
+}
+
+#sucursales h3 {
+    color: #7BC1FE;
+}
+
+.batido {
+    width: 250px;
+    height: 280px;
+}
+
+@media (max-width: 767px) {
+    #batido {
+      max-height: 150px !important;
+      width: auto !important;
+    }
+  }
+
+
+  @media (max-width: 767px) {
+    #stickerCorazon {
+      display: none;
+    }
+  }
+
+#contacto h2 {
+    color: #FB008C;
+}
+
+#contacto form {
+
+    color: #FB008C;
+}
+
+#contacto button {
+    background-color: #FB008C;
+    width: 301px;
+    height: 50px;
+    border-radius: 45px;
+    border-color: #FB008C;
+    color: white;
+}
+
+.miami {
+    position: relative;
+}
+
+.corazon2 {
+    position: absolute;
+    bottom: -50px;
+    left: 480px;
+}
+
+#shop h1 {
+    color: white;
+}
+
+#shop h2 {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+
+}
+
+@media (max-width: 767px) {
+    #pHamburgueseros {
+      font-size: 14px !important; /* ajusta el tamaño de fuente según tus necesidades */
+    }
+  }
+  
+ #nombreProducto {
+
+     color: #FB008C;
+ }
+
+/* POP UP*/
+
+
+
+#mask {
+
+    position: absolute;
+
+    left: 0;
+
+    top: 0;
+
+    z-index: 9000;
+
+    background-color: #000;
+
+    display: none;
+
+}
+
+
+
+#boxes .window {
+
+    position: absolute;
+
+    left: 0;
+
+    top: 0;
+
+    width: 440px;
+
+    height: 200px;
+
+    display: none;
+
+    z-index: 9999;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    text-align: center;
+    background-image: url(img/index/Testimonio1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#boxes #dialog {
+
+    width: 750px;
+
+    height: 300px;
+
+    padding: 10px;
+
+    font-family: 'Segoe UI Light', sans-serif;
+
+    font-size: 15pt;
+
+    color: white;
+
+}
+
+#boxes h3 {
+    color: #92CE12;
+}
+
+/* Fin POP UP*/
+
+#botonAgregar {
+    background-color: #FB008C;
+    color: white;
+    font-weight: 400;
+}
+
+#faq h1 {
+    color: #E55B40;
+}
+.papafrita {
+ width: 153px;
+ height: 184px;
+}
+
+.hamburguesa {
+   width: 265px;
+   height: 200px;
+}
+
+#footerfaq {
+    background-color: #E55B40;
+    color: white;
+}
+
+#footercontacto {
+    background-color: #FB008C;
+    color: white;
+}
+
+#footerham {
+    background-color: #E55A00;
+    color: white;
+}
+
+#footershop {
+    background-color: #FB008C;
+    color: white;
+}
+
+#footerquienes {
+    background-color: #BF4632;
+    color: white;
+}
+
+#footerindex {
+    background-color: #92CE12;
+    color: white;
+}

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- wapp -->
+    <link rel="stylesheet" href="vendors/jquery/jquery.whastapp/floating-wpp.min.css">
+
+    <title>Antuña Magalí y Forgan Luana, Comisión 12A TN 2023</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top px-5 py-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/Logo-TFS.png" alt="Logo de TFTS" class="ps-md-5"
+                    style="width: 120px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="quienessomos.html">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="burgershop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="#galeria">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="hamburgueseros.html">Hamburgueseros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-3" href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+
+    <!-- Pop Up -->
+    <div id="boxes">
+
+        <div id="dialog" class="window">
+            <h3 class="mt-5 mb-5 display-4">15 % OFF</h3>
+
+            <p class="lead">Todos los miércoles, pagando con Mercado Pago.</p>
+        </div>
+
+        <div id="mask"></div>
+
+    </div>
+    <!-- Fin pop up -->
+
+    <section class="container-fluid text-center position-relative mt-5 pt-5">
+        <img src="img/index/fondo.jpg" alt="Hamburguesa" class="img-fluid">
+        <div class="row p-5 position-absolute top-50 start-50 translate-middle">
+            <h1><img id="tituloHome" src="img/index/h1.png" alt="The Food Truck Store"></h1>
+        </div>
+    </section>
+    <section class="container p-5 mt-5 mb-5">
+        <article class="row" id="hamFav">
+            <div class="col-lg-5 text-left pe-5 mt-5">
+                <div class="example">
+                    <h2 class="mb-5 mt-4 fs-1">TU HAMBURGUESA FAVORITA</h2>
+                    <p class="pe-5 fs-5">Pan, carne, queso… ¿Cómo algo tan simple puede ser tan rico? Nos preguntamos lo
+                        mismo todos los días.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 ms-lg-5 grupo1">
+                <img src="img/index/hamFav.jpg" alt="Tu Hamburguesa Favorita" class="img-fluid">
+                <img src="img/index/stickerTFTS.png" alt="Amo TFTS" class="img-fluid corazon">
+            </div>
+        </article>
+        <article class="row" id="mision">
+            <div class="col-lg-6 me-5 mb-5">
+                <img src="img/index/mision.png" alt="Nuestra Misión" class="img-fluid">
+            </div>
+            <div class="col-lg-5 pe-5 mt-5 ms-lg-3 ">
+                <div class="example">
+                    <h2 class="mb-5 mt-4 fs-1">NUESTRA MISIÓN</h2>
+                    <p class="pe-5 fs-5">Queremos llevar la cultura hamburguesera a cada rincón del mundo.</p>
+                </div>
+            </div>
+
+        </article>
+    </section>
+
+    <section class="container-fluid text-center p-5 " id="galeria">
+        <h2 class="display-4 my-5">GALERÍA</h2>
+        <div class="container pb-5">
+            <div class="row">
+            <!-- Modal -->
+            <!-- Button trigger modal -->
+            <button type="button" class="btn border-0 col-md-4 col-6 p-0 mx-0" data-bs-toggle="modal"
+                data-bs-target="#hamburguesa1">
+                <div>
+                    <img src="img/index/gal1.jpg" alt="Hamburguesa 1" class="img-fluid">
+                </div>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="hamburguesa1" tabindex="-1" aria-labelledby="hamburguesa1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="img1">Hamburguesa con bacon</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/index/gal1.jpg" alt="Hamburguesa 1" class="img-fluid">
+                            <p class="m-auto p-4">Hamburguesa doble cheddar, doble bacon.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn border-0 col-md-4 col-6 p-0 mx-0" data-bs-toggle="modal"
+                data-bs-target="#hamburguesa2">
+                <div>
+                    <img src="img/index/gal2.jpg" alt="Hamburguesa 2" class="img-fluid">
+                </div>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="hamburguesa2" tabindex="-1" aria-labelledby="hamburguesa2" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="img2">Hamburguesa con salsa TFTS</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/index/gal2.jpg" alt="Hamburguesa 2" class="img-fluid">
+                            <p class="m-auto p-4">Hamburguesa simple con cheddar, tomate, cebolla, lechuga y nuestra salsa especial TFTS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn border-0 col-md-4 col-6 p-0 mx-0" data-bs-toggle="modal"
+                data-bs-target="#hamburguesa3">
+                <div>
+                    <img src="img/index/gal3.jpg" alt="Hamburguesa 3" class="img-fluid">
+                </div>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="hamburguesa3" tabindex="-1" aria-labelledby="hamburguesa3" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="img3">Hamburguesa pulled pork</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/index/gal3.jpg" alt="Hamburguesa 3" class="img-fluid">
+                            <p class="m-auto p-4">Hamburguesa simple con cheddar, cebolla caramelizada, cerdo desmenuzado y mucho ketchup.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn border-0 col-md-4 col-6 p-0 mx-0" data-bs-toggle="modal"
+                data-bs-target="#hamburguesa4">
+                <div>
+                    <img src="img/index/gal4.jpg" alt="Hamburguesa 4" class="img-fluid">
+                </div>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="hamburguesa4" tabindex="-1" aria-labelledby="hamburguesa4" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="img4">Hamburguesa triple</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/index/gal4.jpg" alt="Hamburguesa 4" class="img-fluid">
+                            <p class="m-auto p-4">Hamburguesa de tres medallones de carne de 150 gr, con mucho cheddar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn border-0 col-md-4 col-6 p-0 mx-0" data-bs-toggle="modal"
+                data-bs-target="#hamburguesa5">
+                <div>
+                    <img src="img/index/gal5.jpg" alt="Hamburguesa 5" class="img-fluid">
+                </div>
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="hamburguesa5" tabindex="-1" aria-labelledby="hamburguesa5" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title fs-5" id="img5">Hamburguesa salsa TFTS simple</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/index/gal5.jpg" alt="Hamburguesa 5" class="img-fluid">
+                            <p class="m-auto p-4">Hamburguesa simple con doble salsa especial, lechuga, tomate y cebolla.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn border-0 col-md-4 col-6 p-0 mx-0" data-bs-toggle="modal"
+                data-bs-target="#hamburguesa6">
+                <div>
+                    <img src="img/index/gal6.jpg" alt="Hamburguesa 6" class="img-fluid">
+                </div>
+            </button>
+            <!-- Modal -->
+            <div class="grupo2">
+                <div class="modal fade" id="hamburguesa6" tabindex="-1" aria-labelledby="hamburguesa6" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title fs-5" id="img6">Hamburguesa con bacon y alioli</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/index/gal6.jpg" alt="Hamburguesa 6" class="img-fluid ">
+                                <p class="m-auto p-4">Hamburguesa doble con doble cheddar, panceta y mucho alioli.</p>
+            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/index/stickerKetchup.png" alt="Ketchup" class="img-fluid ketchup">
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="container p-5 mt-5" id="beneficios">
+        <h2 class="text-center display-4 my-5 pb-5">¿POR QUÉ TFTS?</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3 mb-sm-3 ">
+                <div class="card h-100 card shadow border-0">
+                    <div class="card-body">
+                        <h3 class="card-title px-3 pt-3 pb-2 text-center">Calidad Premium</h3>
+                        <p class="card-text px-3">Trabajamos con la carne de más alta calidad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-sm-3">
+                <div class="card h-100 card shadow border-0">
+                    <div class="card-body">
+                        <h3 class="card-title px-3 pt-3 pb-2 text-center">Sabores únicos</h3>
+                        <p class="card-text px-3">Viajamos por el mundo probando recetas nuevas para poder aplicarlas a
+                            nuestra cocina.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-sm-3">
+                <div class="card h-100 card shadow border-0">
+                    <div class="card-body">
+                        <h3 class="card-title px-3 pt-3 pb-2 text-center">Evolución Constante</h3>
+                        <p class="card-text px-3">Queremos que cada hamburguesa sea una experiencia única, por eso buscamos
+                            constantemente cómo podemos mejorar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="container-fluid p-5" id="testimonios">
+        <h2 class="text-center display-4 my-5">TESTIMONIOS</h2>
+        <div class="col-md-10 mx-auto">
+            <div id="carouselTestimonios" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselTestimonios" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/index/Testimonio1.jpg" class="d-block w-100" alt="Testimonio 1">
+                        <div class="carousel-caption">
+                            <h3 class="display-5">Increíble hamburguesa</h3>
+                            <p class="fs-md-5">"De las mejores que probé en mi vida". - Juan Perez</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/index/Testimonio 2.jpg" class="d-block w-100" alt="Testimonio 2">
+                        <div class="carousel-caption">
+                            <h3 class="display-5">Súper recomendable</h3>
+                            <p class="fs-md-5 mt-4">"La atención es un 10 y el sabor un 1000". - Juana Gonzalez</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/index/Testimonio 3.jpg" class="d-block w-100" alt="Testimonio 3">
+                        <div class="carousel-caption">
+                            <h3 class="display-5 mb-2">TFTS es lo más</h3>
+                            <p class="fs-md-5">"Desde que abrieron la sucursal de Palermo voy todos los findes". -
+                                Facundo Ramirez</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonios"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonios"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container p-5 position-relative my-5" id="burgerShop">
+        <img src="img/index/burgerShop.png" alt="Burger Shop" class="img-fluid">
+        <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h2 class="display-5 mb-md-5">BURGER SHOP ONLINE</h2>
+            <button type="button" class="btn"><a href="burgershop.html">Ir al Shop</a></button>
+        </div>
+    </section>
+
+    <div class="floating-wpp"></div>
+
+</body>
+<footer class="container-fluid pt-5 pb-4" id="footerindex">
+    <div class="row">
+        <div class="col-5 col-md-8 mx-5">
+            <p>Alumnas: Antuña Magalí y Forgan Luana | Comisión: 12A TN 2023 | Materias: Desarrollo II y Programación I
+            </p>
+        </div>
+        <div class="col-4 col-md-2 ms-auto">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.instagram.com/thefoodtruckstore/?hl=es"
+                        target="_blank" class="text-light pe-3"><i class="bi bi-instagram"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.youtube.com/c/TheFoodTruckStore?app=desktop"
+                        target="_blank" class="text-light pe-3"><i class="bi bi-youtube"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank" class="text-light pe-3"><i
+                            class="bi bi-facebook"></i></a></li>
+                <li class="list-inline-item"><a href="https://twitter.com/" target="_blank" class="text-light pe-3"><i
+                            class="bi bi-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+<script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendors/jquery/code.jquery.com_jquery-3.7.0.min.js"></script>
+
+<!-- wapp -->
+
+<script src="vendors/jquery/jquery.whastapp/floating-wpp.min.js"></script>
+
+<script>
+    'use strict';
+    $(function () {
+
+        $('.floating-wpp').floatingWhatsApp({
+
+            phone: '5491112345678',
+            popupMessage: '¡Hola!',
+            showPopup: false,
+            position: 'right',
+            message: 'Hola, les quería consultar por...',
+            headerTitle: 'The Food Truck Store'
+        });
+    });
+
+</script>
+
+<script>
+
+    'use strict'
+
+    $(document).ready(function () {
+
+        var id = '#dialog';
+
+        //Get the screen height and width
+
+        var maskHeight = $(document).height();
+
+        var maskWidth = $(window).width();
+
+        //Set heigth and width to mask to fill up the whole screen
+        $('#mask').css({ 'width': maskWidth, 'height': maskHeight });
+
+        //transition effect
+        $('#mask').fadeIn(500);
+        $('#mask').fadeTo("slow", 0.9);
+        //Get the window height and width
+        var winH = $(window).height();
+        var winW = $(window).width();
+        //Set the popup window to center
+        $(id).css('top', winH / 2 - $(id).height() / 2);
+        $(id).css('left', winW / 2 - $(id).width() / 2);
+        //transition effect
+        $(id).fadeIn(2000);
+        //if close button is clicked
+        $('.window .close').click(function (e) {
+            //Cancel the link behavior
+            e.preventDefault();
+            $('#mask').hide();
+            $('.window').hide();
+        });
+        //if mask is clicked
+        $('#mask').click(function () {
+            $(this).hide();
+            $('.window').hide();
+        });
+    });
+</script>
+
+
+<script>
+
+    $(document).ready(function () {
+
+        var speed = 5000;
+
+        var run = setInterval(rotate, speed);
+        var slides = $('.slide');
+        var container = $('#slides ul');
+        var elm = container.find(':first-child').prop("tagName");
+        var item_width = container.width();
+        var previous = 'prev'; 
+        var next = 'next'; 
+        slides.width(item_width); 
+        container.parent().width(item_width);
+        container.width(slides.length * item_width);
+        container.find(elm + ':first').before(container.find(elm + ':last'));
+        resetSlides();
+
+
+
+
+        $('#buttons a').click(function (e) {
+
+            if (container.is(':animated')) {
+                return false;
+            }
+            if (e.target.id == previous) {
+                container.stop().animate({
+                    'left': 0
+                }, 1500, function () {
+                    container.find(elm + ':first').before(container.find(elm + ':last'));
+                    resetSlides();
+                });
+            }
+
+            if (e.target.id == next) {
+                container.stop().animate({
+                    'left': item_width * -2
+                }, 1500, function () {
+                    container.find(elm + ':last').after(container.find(elm + ':first'));
+                    resetSlides();
+                });
+            }
+ 
+            return false;
+
+        });
+
+
+        container.parent().mouseenter(function () {
+            clearInterval(run);
+        }).mouseleave(function () {
+            run = setInterval(rotate, speed);
+        });
+
+
+        function resetSlides() {
+
+            container.css({
+                'left': -1 * item_width
+            });
+        }
+
+    });
+
+
+    function rotate() {
+        $('#next').click();
+    }
+</script>
+
+<!-- ANIMACION -->
+
+<script src="vendors/jquery/jquery-scrollonreveal/css-scroll-on-reveal/js/ScrollOnReveal.js"></script>
+
+<script>
+    $(function () {
+        $('.example').ScrollOnReveal();
+    });
+</script>
+
+</html>
