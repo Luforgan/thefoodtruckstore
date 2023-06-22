@@ -1,0 +1,79 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 4000px;
+	overflow-x: hidden;
+}
+
+body {background-image: linear-gradient(90deg, rgb(243, 114, 209) 0%,rgb(44, 19, 241) 100%);}
+.square {
+	background: #d33939;
+	clip-path: square();
+}
+
+.circle {
+	background: #ffb2b2;
+	clip-path: circle();
+}
+
+.star {
+	background: #ffb2b2;
+	-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.polygon {
+	background: #DA70D6;
+	 -webkit-clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+	clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.triangle {
+	background: #FF6347;
+	-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.cross {
+	background: #345;
+	-webkit-clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+	clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+}
+
+.header {
+	padding: 15vw;
+	text-align: center;
+	background: #fafafa;
+}
+
+.section1 {
+	width: 100%;
+	height: auto;
+	margin: 50px 0;
+	padding: 0;
+}
+
+.flex-row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 5vw 0;
+}
+
+.flex-row .flex-col {
+	flex-basis: 400px;
+}
+
+.flex-row .flex-col h2 {
+	padding: 4vw 20px;
+}
+
+.flex-row .flex-col .item {
+	height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
